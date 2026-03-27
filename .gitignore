@@ -1,0 +1,29 @@
+# 构建输出目录
+/public/
+
+# 资源缓存目录 (包含处理后的图片、CSS等)
+/resources/
+
+# 临时构建锁文件
+.hugo_build.lock
+
+# 由Hugo Pipes生成的JS配置文件和构建统计文件
+/assets/jsconfig.json
+hugo_stats.json
+
+# 依赖目录 (如果你使用 npm/yarn 等前端工具)
+/node_modules/
+
+# 本地开发服务器生成的文件
+/.hugo_build.lock
+
+# 操作系统生成的文件 (如 macOS)
+.DS_Store
+Thumbs.db
+
+# 编辑器或IDE配置文件 (可选)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

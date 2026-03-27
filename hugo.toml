@@ -1,0 +1,11 @@
+defaultContentLanguage = "zh-cn"
+
+baseURL = '/'
+locale = 'zh-cn'
+title = '2244y575 Blog'
+theme = "DoIt"
+
+[params]
+  [params.author]
+    name = "2244y575"
+    link = "https://github.com/2244y575" 
