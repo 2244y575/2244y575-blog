@@ -10,6 +10,7 @@ title = '浅谈Token登录方案'
 当下Token常使用 **JWT** 方案，是一种无状态的、自包含的令牌标准。
 
 传统方案设置 `secretKey` 密钥，颁发Token和对应存储信息。Spring Boot项目中需要先引入 `jjwt` 依赖。
+<!--more-->
 
 **颁发令牌：**
 ```java
